@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS phone_db;
+USE phone_db;
+
+CREATE TABLE IF NOT EXISTS registrations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(150),
+    phone CHAR(6) UNIQUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

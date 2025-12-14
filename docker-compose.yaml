@@ -1,0 +1,46 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    container_name: phone_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: phone_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass123
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app-network
+
+  api:
+    build: ./backend-api
+    container_name: phone_api
+    ports:
+      - "3000:3000"
+    environment:
+      DB_HOST: db
+      DB_USER: user
+      DB_PASSWORD: pass123
+      DB_NAME: phone_db
+      PORT: 3000
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  frontend:
+    build: ./frontend
+    container_name: phone_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

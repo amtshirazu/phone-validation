@@ -6,7 +6,7 @@ This project is a **Phone Number Validation and Registration System**. The syste
 
 <!-- Home Screens -->
 <img src="screenshots/home.png" width="250" />
-<img src="screenshots/home.png" width="250" />
+<img src="screenshots/home_2.png" width="250" />
 
 ## Phone Number Validation Rules
 
@@ -21,7 +21,7 @@ Validation logic is implemented in a dedicated module (`validation.js`) on the b
 
 <!-- Registration Screens -->
 <img src="screenshots/registration.png" width="250" />
-<img src="screenshots/registration_2.png" width="250" />
+<img src="screenshots/registration_2.png" width="320" />
 
 
 This web-based application is designed using a **microservice-based architecture** and fully containerized using **Docker** and **Docker Compose**. It consists of three main components: a backend API, a MySQL database, and a frontend web interface.
@@ -53,8 +53,8 @@ The system follows a **three-tier architecture**:
 All components communicate over a Docker bridge network.
 
 <!-- System Architecture Screens -->
-<img src="screenshots/system_architecture.png" width="250" />
-<img src="screenshots/system_architecture_2.png" width="250" />
+<img src="screenshots/system_architecture.png" width="380" />
+<img src="screenshots/system_architecture_2.png" width="380" />
 
 ---
 

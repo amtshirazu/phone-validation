@@ -5,10 +5,8 @@
 This project is a **Phone Number Validation and Registration System**. The system validates 6-digit phone numbers according to predefined mathematical rules, registers valid phone numbers into a database, and provides statistical information about valid and registered numbers.
 
 <!-- Home Screens -->
-<p float="left">
-  <img src="screenshots/home.png" width="250" style="margin-right: 15px;"/>
-  <img src="screenshots/home_2.png" width="250"/>
-</p>
+![Home Screen](screenshots/home.png)
+![Home Screen](screenshots/home_2.png)
 
 ## Phone Number Validation Rules
 
@@ -22,10 +20,8 @@ A phone number is considered **valid** if:
 Validation logic is implemented in a dedicated module (`validation.js`) on the backend.
 
 <!-- Registration Screens -->
-<p float="left">
-  <img src="screenshots/registration.png" width="250" style="margin-right: 15px;"/>
-  <img src="screenshots/registration_2.png" width="250"/>
-</p>
+![Registration Screen](phone-validation/screenshots/registration.png) 
+![Registration Screen](phone-validation/screenshots/registration_2.png)
 
 
 This web-based application is designed using a **microservice-based architecture** and fully containerized using **Docker** and **Docker Compose**. It consists of three main components: a backend API, a MySQL database, and a frontend web interface.
@@ -57,10 +53,8 @@ The system follows a **three-tier architecture**:
 All components communicate over a Docker bridge network.
 
 <!-- System Architecture Screens -->
-<p float="left">
-  <img src="screenshots/system_architecture.png" width="250" style="margin-right: 15px;"/>
-  <img src="screenshots/system_architecture_2.png" width="250"/>
-</p>
+![System Architecture](screenshots/system_architecture.png)
+![System Architecture](frontend/screenshots/system_architecture_2.png)
 ---
 
 ## 3. Technologies Used

@@ -6,8 +6,8 @@ This project is a **Phone Number Validation and Registration System**. The syste
 
 <!-- Home Screens -->
 <p float="left">
-  <img src="phone-validation/screenshots/home.png" width="250" style="margin-right: 15px;"/>
-  <img src="phone-validation/screenshots/home_2.png" width="250"/>
+  <img src="screenshots/home.png" width="250" style="margin-right: 15px;"/>
+  <img src="screenshots/home_2.png" width="250"/>
 </p>
 
 ## Phone Number Validation Rules
@@ -23,8 +23,8 @@ Validation logic is implemented in a dedicated module (`validation.js`) on the b
 
 <!-- Registration Screens -->
 <p float="left">
-  <img src="phone-validation/screenshots/registration.png" width="250" style="margin-right: 15px;"/>
-  <img src="phone-validation/screenshots/registration_2.png" width="250"/>
+  <img src="screenshots/registration.png" width="250" style="margin-right: 15px;"/>
+  <img src="screenshots/registration_2.png" width="250"/>
 </p>
 
 
@@ -58,8 +58,8 @@ All components communicate over a Docker bridge network.
 
 <!-- System Architecture Screens -->
 <p float="left">
-  <img src="phone-validation/screenshots/system_architecture.png" width="250" style="margin-right: 15px;"/>
-  <img src="phone-validation/screenshots/system_architecture_2.png" width="250"/>
+  <img src="screenshots/system_architecture.png" width="250" style="margin-right: 15px;"/>
+  <img src="screenshots/system_architecture_2.png" width="250"/>
 </p>
 ---
 

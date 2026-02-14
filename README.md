@@ -53,7 +53,7 @@ The system follows a **three-tier architecture**:
 All components communicate over a Docker bridge network.
 
 <!-- System Architecture Screens -->
-<img src="screenshots/system_architecture.png" width="380" />
+<img src="screenshots/system_architecture.png" width="500" />
 <img src="screenshots/system_architecture_2.png" width="380" />
 
 ---
